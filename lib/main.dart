@@ -20,7 +20,10 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Belajar Flutter'),
+          title: const Text('Dashboard Mahasiswa'),
+          backgroundColor: Colors.teal,
+          foregroundColor: Colors.white,
+          centerTitle: true,
         ),
         body: const Center(
           child: Text(
