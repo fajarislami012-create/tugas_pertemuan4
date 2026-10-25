@@ -9,10 +9,10 @@ class HomePage extends StatelessWidget {
       backgroundColor: Colors.grey[100],
       appBar: AppBar(
         title: const Text(
-          'Tugas Pertemuan 3',
+          'Dashboard Mahasiswa',
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
-        backgroundColor: Colors.indigo,
+        backgroundColor: Colors.teal,
         centerTitle: true,
       ),
       body: SingleChildScrollView(
@@ -31,7 +31,7 @@ class HomePage extends StatelessWidget {
                     children: [
                       const CircleAvatar(
                         radius: 40,
-                        backgroundColor: Colors.indigo,
+                        backgroundColor: Colors.teal,
                         child: Icon(
                           Icons.person,
                           size: 50,
@@ -44,7 +44,7 @@ class HomePage extends StatelessWidget {
                         style: TextStyle(
                           fontSize: 22,
                           fontWeight: FontWeight.bold,
-                          color: Colors.indigo,
+                          color: Colors.teal,
                         ),
                       ),
                       const SizedBox(height: 4),
@@ -59,7 +59,7 @@ class HomePage extends StatelessWidget {
                       const Row(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
-                          _InfoItem(label: 'Pertemuan', value: '03'),
+                          _InfoItem(label: 'Pertemuan', value: '04'),
                           _InfoItem(label: 'Status', value: 'Aktif'),
                           _InfoItem(label: 'Tugas', value: 'Selesai'),
                         ],
@@ -71,7 +71,7 @@ class HomePage extends StatelessWidget {
               const SizedBox(height: 20),
               ElevatedButton.icon(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.indigo,
+                  backgroundColor: Colors.teal,
                   foregroundColor: Colors.white,
                   padding: const EdgeInsets.symmetric(
                     horizontal: 24,
@@ -84,7 +84,7 @@ class HomePage extends StatelessWidget {
                 onPressed: () {
                   ScaffoldMessenger.of(context).showSnackBar(
                     const SnackBar(
-                      content: Text('Progres Pertemuan 3 Berhasil Diperbarui!'),
+                      content: Text('Progres Pertemuan 4 Berhasil Diperbarui!'),
                       duration: Duration(seconds: 2),
                     ),
                   );
@@ -115,7 +115,7 @@ class _InfoItem extends StatelessWidget {
           style: const TextStyle(
             fontSize: 16,
             fontWeight: FontWeight.bold,
-            color: Colors.indigo,
+            color: Colors.teal,
           ),
         ),
         const SizedBox(height: 4),
