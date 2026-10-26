@@ -1,21 +1,19 @@
-# Tugas Pertemuan 3 - Pemrograman Mobile (Flutter)
+# Tugas Pertemuan 4 - Pemrograman Mobile
 
-Aplikasi Profil Sederhana menggunakan Flutter dan Material Design 3. Project ini dibangun secara bertahap melalui 6 tahapan commit terstruktur untuk mendemonstrasikan alur pengembangan aplikasi profesional.
+Aplikasi Flutter sederhana ini dibuat buat memenuhi Tugas Pertemuan 4 mata kuliah Pemrograman Mobile.
 
-## 🚀 Fitur & Komponen UI
-- **StatelessWidget & Modular Architecture**: Pemisahan logika UI ke dalam folder `lib/pages/home_page.dart`.
-- **Material 3 Design**: Penggunaan `ColorScheme` dan kustomisasi `AppBar`.
-- **Profile Card**: Menampilkan `CircleAvatar`, nama, status, dan indikator statistik ringkas.
-- **Interaktivitas**: `ElevatedButton` dengan aksi `SnackBar`.
+## Data Mahasiswa
+* **Nama**: Fajar Hikmayatul Islami
+* **Project**: Aplikasi Dashboard Mahasiswa
 
-## 📌 Riwayat Commit (Development Roadmap)
-1. **Sesi 1**: Setup project awal dan testing Hello World di emulator.
-2. **Sesi 2**: Refactoring kode bawaan jadi `StatelessWidget` dan custom UI.
-3. **Sesi 3**: Modularisasi struktur folder dan pemisahan file `HomePage`.
-4. **Sesi 4**: Menambahkan `Card` UI dan `ElevatedButton` interaktif.
-5. **Sesi 5**: Menambahkan komponen Profile Card dan custom widget `InfoItem`.
-6. **Sesi 6**: Penataan dokumentasi `README.md` dan penyelesaian tugas.
+## Apa Aja yang Dikerjain?
+* Setup dasar aplikasi pakai `MaterialApp` dan tema Material 3.
+* Mengubah warna tema utama jadi warna Teal.
+* Menyesuaikan tampilan `AppBar` dan judul di tengah layar.
+* Menambahkan fitur Mode Gelap (`darkTheme`) sesuai sistem HP.
+* Merapikan kodingan dengan memisahkan halaman utama ke file `lib/pages/home_page.dart`.
 
----
-**Nama**: Fajar Islamic  
-**Mata Kuliah**: Pemrograman Mobile (Pertemuan 3)
+## Cara Menjalankan Aplikasi
+1. Download atau clone repo ini:
+   ```bash
+   git clone [https://github.com/fajarislami012-create/tugas_pertemuan4.git](https://github.com/fajarislami012-create/tugas_pertemuan4.git)
